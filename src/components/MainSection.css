@@ -1,0 +1,147 @@
+.home__main-section{
+  position: relative;
+}
+
+.home__main-section::after {
+  content: "";
+  background: url('../Pages/images/Camino_fields_licenced.jpeg') left top no-repeat, url('../Pages/images/Camino_fields_licenced.jpeg') right bottom no-repeat;
+  opacity: 0.4;
+  font-family: 'Roboto', sans-serif;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  padding: 160px 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  
+  
+  
+  
+  }
+  
+  .home__main-row {
+    
+    align-items: center;
+  }
+  
+  .row {
+    text-align: center;
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  
+  .col {
+    
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  
+  .home__main-text-wrapper {
+    
+    padding-left: 5%;
+    max-width: 540px;
+    padding-top: 120px;
+    padding-bottom: 180px;
+  }
+  
+  .top-line {
+    padding-right: 10%;
+    color: black;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  
+  .heading {
+    padding-right: 10%;
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: black
+  }
+  
+  .dark {
+    color: #1c2237;
+  }
+  
+  .darkBg {
+    background-color: #1c2237;
+  }
+  
+  .home__main-subtitle {
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .home__main-img-wrapper {
+    display: flex;
+    justify-content: center; 
+    max-width: 555px;
+    padding-bottom: 15%;
+  }
+  
+  .home__main-img {
+    border-radius: 1rem; 
+    overflow: hidden;
+    position: relative;
+    max-width: 95%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    padding-right: 0;
+    
+  }
+  
+  img {
+    
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .container {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home__main-text-wrapper {
+      padding-bottom: 65px;
+    }
+  
+    .col {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }
+
+  .features {
+    margin-bottom: 24px;
+    font-size: 28px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: black;
+  }
+
+  
