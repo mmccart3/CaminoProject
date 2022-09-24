@@ -19,13 +19,12 @@ function App() {
   const [user, setUser] = useState();
   const [locationData, setLocationData] = useState();
   const [locationID,setLocationID] =useState(0);
-  const [stageID,setStageID] = useState (1);
+  const [stageID,setStageID] = useState (0);
   const [isLoading, setIsLoading] = useState(false);
 
 useEffect(()=>{
+  console.log("App.js local storage: ",localStorage);
   tokenFetch(setUser);
- // setStageID(1);
- // setLocationID(0);
 },[])
 
   return (

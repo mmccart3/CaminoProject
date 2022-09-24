@@ -10,6 +10,7 @@ export default function LogOut() {
   const logOut = (e) => {
     e.preventDefault();
     localStorage.removeItem('myToken');
+    console.log("logout",localStorage);
     setUser();
   };
 

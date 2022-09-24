@@ -44,6 +44,7 @@ export const loginFetch = async (username, password, setUser) => {
     console.log(data.user.passw);
     setUser(data.user.username);
     localStorage.setItem('myToken', data.token);
+    console.log(localStorage);
   } catch (error) {
     console.log(error);
   }

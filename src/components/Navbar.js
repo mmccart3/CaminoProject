@@ -22,6 +22,7 @@ export default function Navbar({ user, setUser }) {
   const logOut = (e) => {
     localStorage.removeItem('myToken');
     setUser();
+    console.log("Navbar.js: ",localStorage);
   };
   window.addEventListener('resize', showButton);
 
