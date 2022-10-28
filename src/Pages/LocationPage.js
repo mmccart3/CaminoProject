@@ -134,6 +134,7 @@ let locParas = isLoadingLocation ? [] : locationParagraphs.paragraphs;
       <h4>List of local Albergues</h4>
       </div>
 <table>
+  <thead>
   <tr>
     <th>Name</th>
     <th>Address</th>
@@ -146,6 +147,7 @@ let locParas = isLoadingLocation ? [] : locationParagraphs.paragraphs;
     <th>Phone Number</th>
     <th>Comments</th>
   </tr>
+  </thead>
 
   {albergueArray.map((item, index) => {
     const rate = "€"+ Math.round(item.onedPersonRateMin);

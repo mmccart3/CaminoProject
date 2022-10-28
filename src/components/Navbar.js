@@ -41,7 +41,7 @@ export default function Navbar({ user, setUser }) {
             </div>
             <div className='user-hello'>
   
-             {user && <h1>Hello {user}</h1>}
+            {user && <h1>Hello {user}</h1>}
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               {/* <li className = 'nav-item'>

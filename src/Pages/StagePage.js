@@ -211,7 +211,7 @@ export default function StagePage({user, stageID, setStageID, locationIDParam, l
         }
           }>Previous Stage</button>
         <button  className='nextButtons'onClick={() => {
-          if (stageID===2){setStageID(2);setMySwitch(false);} else {setStageID(stageID+1);setMySwitch(false);}}
+          if (stageID===3){setStageID(3);setMySwitch(false);} else {setStageID(stageID+1);setMySwitch(false);}}
         }>Next Stage</button>
         <div>
         <Routes>
